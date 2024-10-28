@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    color: #ffffff;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-left: 1em;
+}
+
+.about-me {
+    max-width: 800px;
+    padding: 2em;
+    color: #333;
+    line-height: 1.6;
+}
+
+#title {
+    font-size: 2em;
+    font-weight: bold;
+    color: #243140;
+    margin-bottom: 0.5em;
+}
+
+#about {
+    font-size: 1.1em;
+    margin-bottom: 1.5em;
+}
+
+#casual {
+    font-size: 1.8em;
+    font-weight: bold;
+    color: #243140;
+    margin-top: 2em;
+    margin-bottom: 0.5em;
+}
+
+#casual-interests {
+    font-size: 1.1em;
+    color: #555;
+}
+
+@media (max-width: 768px) {
+    .about-me {
+        padding: 1em;
+    }
+
+    #title, #casual {
+        font-size: 1.5em;
+    }
+
+    #about, #casual-interests {
+        font-size: 1em;
+    }
+}
